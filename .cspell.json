@@ -21,7 +21,9 @@
     "Christiaan",
     "Verwijs",
     "Todos",
-    "Nepo"
+    "Nepo",
+    "Digitalents",
+    "digitalents"
   ],
   "ignorePaths": [
     "node_modules/**",
