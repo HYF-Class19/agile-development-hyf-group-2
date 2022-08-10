@@ -18,7 +18,7 @@
 
 ## About
 
-![About]()
+![About](../public/AboutPage.png)
 
 ## Support us
 
