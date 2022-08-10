@@ -1,1 +1,32 @@
 @import url("./something.css");
+
+.footer {
+  position: fixed;
+  bottom: 80px;
+  width: 100%;
+}
+
+.foothead {
+  text-align: center;
+  color: blue;
+  font-style: italic;
+}
+
+.footadd {
+  text-align: center;
+  font-style: oblique;
+}
+
+.footlogocontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 20px 0;
+  gap: 20px;
+}
+
+.footlogo {
+  height: 50px;
+  width: 50px;
+}
