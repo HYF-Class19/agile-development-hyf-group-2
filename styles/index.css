@@ -139,3 +139,34 @@
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px; */
 }
+
+/* footer css */
+.footer {
+  bottom: 80px;
+  width: 100%;
+}
+
+.footHead {
+  text-align: center;
+  color: blue;
+  font-style: italic;
+}
+
+.footAdd {
+  text-align: center;
+  font-style: oblique;
+}
+
+.footLogoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 20px 0;
+  gap: 20px;
+}
+
+.footLogo {
+  height: 50px;
+  width: 50px;
+}
