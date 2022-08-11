@@ -83,6 +83,7 @@ u,
 ul,
 var,
 video {
+  /* list-style: none; */
   border: 0;
   border-top-color: initial;
   border-top-style: initial;
@@ -129,3 +130,16 @@ video {
   text-decoration-color: initial;
   vertical-align: baseline;
 }
+
+/*
+.home-main {
+  display: flex;
+  flex: 1 0 auto;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+  -webkit-box-flex: 1;
+  box-sizing: border-box;
+  width: 100%;
+}
+*/
