@@ -189,11 +189,11 @@
 }
 
 .hanim {
-  background: url(/public/images/hanim.jpg) 0% 0% / cover transparent;
+  background: url(../public/images/hanim.jpg) 0% 0% / cover transparent;
 }
 
 .edouardo {
-  background: url(/public/images/edouardo.jpg) 0% 0% / cover transparent;
+  background: url(../public/images/edouardo.jpg) 0% 0% / cover transparent;
 }
 
 .slide-title {
