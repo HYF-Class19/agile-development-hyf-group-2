@@ -8,7 +8,6 @@
   width: 100%;
   padding: 50px 0;
   position: relative;
-
 }
 
 .val__wrap {
@@ -218,6 +217,7 @@
   line-height: 160%;
   font-family: "Space Mono", monospace;
   white-space: pre-wrap;
+
   /* padding-left: 2em;
   padding-top: 2em; */
 }
@@ -267,8 +267,6 @@
   text-align: left;
   max-width: none;
 }
-
-
 
 .btn-partner {
   display: inline-flex;
