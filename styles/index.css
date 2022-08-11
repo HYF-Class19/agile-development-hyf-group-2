@@ -1,5 +1,227 @@
 @import url("./something.css");
 
+/* Core-values */
+
+.val {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 50px 0;
+  position: relative;
+}
+
+.val__wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.val__content {
+  display: flex;
+  background-color: rgb(248, 249, 252);
+  padding: 100px;
+  flex-direction: column;
+}
+
+.val__title {
+  font-size: 24px;
+  line-height: 140%;
+  margin-bottom: 20px;
+}
+
+.val__card-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.val__card {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.val__card-img {
+  margin-bottom: 20px;
+  min-height: 70px;
+  object-fit: contain;
+}
+
+.val__card-title {
+  font-size: 20px;
+  line-height: 140%;
+  margin-bottom: 20px;
+  text-transform: none;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(28, 34, 148);
+  text-align: left;
+  max-width: none;
+}
+
+.val__par {
+  color: rgb(45, 48, 55);
+  text-align: left;
+  max-width: none;
+  line-height: 160%;
+  font-size: 16px;
+  font-family: "Space Mono", monospace;
+  margin-bottom: 10px;
+  word-break: break-word;
+  font-weight: 300;
+}
+
+/* Success slider */
+
+.success {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 50px 0;
+  position: relative;
+  box-shadow: none;
+  background: none;
+  z-index: 1;
+  flex: 0 0 auto;
+}
+
+.success__wrap {
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.success__title {
+  font-size: 24px;
+  line-height: 140%;
+  margin-bottom: 20px;
+  font-family: "Work Sans", sans-serif;
+  color: rgb(28, 34, 148);
+}
+
+.success__slider {
+  width: 50%;
+  min-height: 500px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.arrow-left {
+  position: absolute;
+  left: -50px;
+  right: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100;
+  background-color: transparent;
+  color: rgb(74, 80, 187);
+  border: none;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.svg-inline--fa {
+  display: inline-block;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+
+.arrow-right {
+  position: absolute;
+  left: auto;
+  right: -50px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  color: rgb(74, 80, 187);
+  border: none;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.success__slides {
+  position: absolute;
+  width: 200%;
+  max-width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  transform: translateX(0%);
+  transition: transform 0.3s ease 0s;
+  line-height: 1;
+}
+
+.success__slide {
+  width: 100%;
+  max-width: 100%;
+  min-height: 500px;
+  box-sizing: border-box;
+  opacity: 0.6;
+  transition: all 0.3s ease 0s;
+  transform: scale(0.8);
+  text-align: center;
+  box-shadow: rgb(0 0 0 / 8%) 0 0 53px;
+  padding: 50px;
+}
+
+.success__slide.active {
+  opacity: 1;
+  transform: none;
+}
+
+.slide-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin: auto auto 20px;
+  background-position: center center;
+  filter: grayscale(100%);
+}
+
+.hanim {
+  background: url(/public/images/hanim.jpg) 0% 0% / cover transparent;
+}
+
+.edouardo {
+  background: url(/public/images/edouardo.jpg) 0% 0% / cover transparent;
+}
+
+.slide-title {
+  font-size: 18px;
+  line-height: 140%;
+  margin-bottom: 0;
+  font-family: "Work Sans", sans-serif;
+  color: rgb(28, 34, 148);
+  text-align: center;
+}
+
+.slide-subtitle {
+  color: rgb(45, 48, 55);
+  line-height: 160%;
+  font-family: "Work Sans", sans-serif;
+  margin: 0 0 20px;
+}
+
+.slide-par {
+  color: rgb(45, 48, 55);
+  line-height: 160%;
+  font-family: "Space Mono", monospace;
+  white-space: pre-wrap;
+
+  /* padding-left: 2em;
+  padding-top: 2em; */
+}
+
 /* our partners */
 
 .container-partner {
@@ -44,9 +266,6 @@
   color: rgb(28, 34, 148);
   text-align: left;
   max-width: none;
-
-  /* padding-left: 2em;
-  padding-top: 2em; */
 }
 
 .btn-partner {
