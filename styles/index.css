@@ -1,5 +1,52 @@
 @import url("./something.css");
 
+/* header */
+
+.home-header {
+  display: flex;
+  width: 100%;
+  height: 85px;
+  min-height: 100px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.container-header {
+  -webkit-box-align: center;
+  align-items: center;
+  box-shadow: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-flex: 0;
+  height: 100%;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  max-height: none;
+  max-width: 1280px;
+  width: 100%;
+  z-index: 0;
+  position: static;
+  background: none 0% 0% / auto transparent;
+  flex: 0 1 100%;
+  margin: auto;
+}
+
+.container-title {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 120%;
+}
+
+.title-img {
+  width: auto;
+  height: 100%;
+  object-fit: contain;
+}
+
 /* Core-values */
 
 .val {
