@@ -47,6 +47,125 @@
   object-fit: contain;
 }
 
+/* ---------- START OUR PROGRAM & OUR IMPACT---------- */
+
+#first-section {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: -20%;
+  margin: 10% 20% 10% 20%;
+  color: rgb(45, 48, 55);
+  font-family: "Space Mono", monospace;
+}
+
+#first-section div {
+  max-width: 1280px;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#first-section div div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#h2-div {
+  margin: 0 0 2%;
+  color: rgb(28, 34, 148);
+  font-weight: 700;
+}
+
+#first-section p {
+  font-size: 16px;
+  line-height: 160%;
+  font-family: "Space Mono", monospace;
+}
+
+#first-section p b {
+  color: rgb(28, 34, 148);
+}
+
+#first-section img {
+  position: static;
+  width: 40%;
+  height: 100%;
+  float: right;
+  margin: -20% 25% auto 20%;
+}
+
+#second-section {
+  width: 80em;
+  height: 25em;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  box-shadow: 1px 1px 25px -15px #646464;
+}
+
+#second-section-box {
+  width: 100%;
+  height: 100%;
+}
+
+#second-section-box-title {
+  margin-top: 4em;
+  margin-bottom: 5em;
+  padding-top: 1.5em;
+}
+
+#second-section-box-title h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(28, 34, 148);
+  font-family: "Work Sans", sans-serif;
+  text-transform: uppercase;
+  line-height: 0%;
+  margin-top: 1em;
+}
+
+#second-section-box-title p {
+  margin-top: 2em;
+  line-height: 150%;
+  font-size: 16px;
+  white-space: inherit;
+}
+
+#boxes-container {
+  margin: 6em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: lightyellow;
+}
+
+.boxes-container-boxes {
+  width: 20em;
+  height: 10em;
+  border: 1px solid black;
+  background-color: rgb(74, 80, 187);
+  color: white;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: left;
+}
+
+.boxes-container-boxes-h1 {
+  font-size: 24px;
+  margin-bottom: 1em;
+}
+
+/* ---------- END OUR PROGRAM & OUR IMPACT---------- */
+
 /* Core-values */
 
 .val {
