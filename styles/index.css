@@ -5,8 +5,8 @@
 .home-header {
   display: flex;
   width: 100%;
-  height: 85px;
-  min-height: 100px;
+  height: 150px;
+  min-height: 150px;
   box-sizing: border-box;
   padding: 20px;
 }
@@ -32,19 +32,134 @@
   margin: auto;
 }
 
-.container-title {
+.container-logo {
   display: flex;
   -webkit-box-pack: center;
   justify-content: center;
   -webkit-box-align: center;
   align-items: center;
-  height: 120%;
+  height: 150%;
 }
 
-.title-img {
+@media all and (max-width: 375px) {
+  .container-logo a img {
+    width: 100%;
+    display: flex;
+  }
+}
+
+.container-logo a {
+  height: 100%;
+}
+
+.container-logo img {
   width: auto;
   height: 100%;
   object-fit: contain;
+}
+
+/* navbar */
+
+.home-nav {
+  display: flex;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  flex-direction: row;
+}
+
+.home-nav ul {
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 100%;
+  color: rgb(127, 127, 127);
+  font-size: 12px;
+  line-height: 160%;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.home-nav li {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: auto;
+  padding: 15px;
+}
+
+.apply {
+  display: inline-flex;
+  font-size: 12px;
+  line-height: 160%;
+  text-decoration: none;
+  background-color: rgb(7, 19, 255);
+  color: white;
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+}
+
+.home-nav li a {
+  font-family: cursive;
+  font-size: 16px;
+}
+
+.home-nav li a:hover {
+  display: inline-flex;
+  font-size: 12px;
+  line-height: 160%;
+  text-decoration: none;
+  background-color: rgb(7, 19, 255);
+  color: white;
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+  .home-header {
+    height: auto;
+    justify-content: space-between;
+    z-index: 1600;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .home-nav ul {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    z-index: 600;
+    height: auto;
+    width: 100%;
+  }
 }
 
 /* Core-values */
@@ -272,7 +387,20 @@
 /* our partners */
 
 .container-partner {
-  padding: 5em;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+  padding: 50px 20px;
+  position: relative;
+  box-shadow: none;
+  background: none;
+  z-index: 1;
+}
+
+.cont-partner {
+  z-index: 1;
+  max-width: 1280px;
 }
 
 .partner {
@@ -280,14 +408,12 @@
   -webkit-box-pack: center;
   justify-content: center;
   width: 100%;
-
-  /* padding: 50px 20px;
+  padding: 50px 20px;
   padding-top: 50px;
   padding-right: 20px;
   padding-bottom: 50px;
   padding-left: 20px;
-  position: relative; */
-
+  position: relative;
   box-shadow: none;
   background: none;
   z-index: 1;
@@ -304,9 +430,6 @@
 
 .h-partner {
   font-size: 24px;
-
-  /* margin-bottom: 20px; */
-
   text-transform: uppercase;
   font-family: "Work Sans", sans-serif;
   font-weight: 700;
@@ -318,31 +441,23 @@
 .btn-partner {
   display: inline-flex;
   font-size: 18px;
-
-  /* line-height: 160%; */
-
   text-decoration: none;
   font-weight: 600;
   border: 1px solid #fff;
   border-radius: 4px;
   box-sizing: border-box;
-
-  /* padding: 2em 2em; */
-
   cursor: pointer;
   text-transform: uppercase;
   -webkit-box-align: center;
   align-items: center;
   font-family: "Work Sans", sans-serif;
-  background-color: rgb(8, 86, 86);
+  background-color: rgb(255, 255, 255);
   color: rgb(74, 80, 187);
-  animation: pulsate 10s ease-in-out;
 }
 
-.logo-partner a {
-  background-color: #fff;
-  width: auto;
-  height: 7vh;
+.btn-partner:hover {
+  animation: pulsate 5s ease-in-out;
+  box-shadow: blue;
 }
 
 @keyframes pulsate {
@@ -376,34 +491,12 @@
   z-index: 0;
   position: static;
   background: none 0% 0% / auto transparent;
-
-  /* flex: 0 1 170px;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: 170px;
-  margin: 0px;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  padding: 0px;
-  padding-top: 0px;
-  padding-right: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px; */
 }
 
 .img-partner-1 {
   width: 100%;
   height: auto;
   object-fit: fill;
-
-  /*
-  border-radius: 0px;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 0px; */
 }
 
 /* support the developers */
@@ -484,9 +577,6 @@
   line-height: 160%;
   font-size: 16px;
   font-family: "Space Mono", monospace;
-
-  /* white-space: pre-wrap; */
-
   word-break: break-word;
   font-weight: 300;
 }
