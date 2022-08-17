@@ -7,87 +7,132 @@ create your own!
 
 ---
 
-## Must-Haves
+## 1. Must-Haves `home page`
 
 ### Home page
+
+#### Title `home page`
+
+- [ ] As a user, I can see the title on the nav bar.
+- [ ] There is a descriptive title on the top left of the page.
+
+#### Navbar `home page`
+
+- [ ] As a user, I can use the navbar to navigate to different pages.
+- [ ] There is a navbar, briefly describes which content on each page which is:-
+
+- `The program`
+- `Volunteer`
+- `Digitalents`
+- `About`
+- `FAQ`
+- `Support us`
+- `Apply button`
+
+#### Showcase
+
+- [ ] As a user, I can see the showcase.
+
+> the showcase to know about HYF Belgium helping
+
+#### Our Program
+
+- [ ] As a user I want see program section which is include introduction of 9
+      months training theme's
+- [ ] there is our program intro and links to discover more about training
+
+#### Footer
+
+- [ ] As a user, I want to see the footer on a bottom of page.
+- [ ] the footer which is describe adders of HYF and social media links
+
+## 2. Should-have `home page`
+
+#### Statistic
+
+- [ ] As a user I want see impact section which is has information of graduated
+      students.
+- [ ] there is a cards container to describe students graduate by percentage.
+
+#### Partner
+
+- [ ] As a user I want to see the HYF partner
+- [ ] to describe how how to become a partner and HYF powerful is to help
+      newcomers.
+
+#### Contact us
+
+- [ ] As a user I want to use contact form.
+- [ ] There is descriptive form which is include name email labels and send
+      button, as well as A Google map to get in HYF location.
+
+## 3. Could-have `home page`
+
+#### Core-values
+
+- [ ] As a user I want to see core values of HYF Belgium.
+- [ ] There is HYF values which is include community, diversity commitment and
+      openness.
+
+#### Success user stories
+
+- [ ] As a user I want to see some success user stories of HYF developers
+- [ ] There is descriptive stories of IT consultant UX designer.
+
+#### Support developers section
+
+- [ ] As a user I want what who they support.
+- [ ] Theres is a form donations which is support HYF.
+
+---
+
+## 1. Must-Have `program page`
+
+### The Program
 
 #### Title
 
 - [ ] As a user, I can see the title on the nav bar.
+- [ ] There is a descriptive title on the top left of the page.
 
-> There is a descriptive title on the top of the page.
+#### Nav-bar `program -page`
 
-#### Navbar
+- [ ] As a user, I can use the nav-bar to navigate to different pages.
+- [ ] There is a nav-bar, briefly describes which content on each page which
+      is:-
 
-- [ ] As a user, I can use the navbar to navigate to different pages.
+- `The program`
+- `Volunteer`
+- `Digitalents`
+- `About`
+- `FAQ`
+- `Support us`
+- `Apply button`
 
-> There is a navbar, briefly describes which content on each page.
+#### New career
 
-#### Apply button
+- [ ] As user I want to see the a introduction of 9 month training.
+- [ ] There is an image on left side of introduction as well as application
+      button for new classes.
 
-As a user, I can see see apply button.
+#### 9-months program
 
-> There is apply button on the navbar.
+- [ ] As a user I want to see `9-months-program` section
+- [ ] There is programming language part which is give an idea what you are
+      going to study during 9 month training as well as button link to read the
+      full curriculum and become a couch
 
-#### Program
+#### Footer `program page`
 
-- [ ] As a user, I can see the paragraph with the program
+- [ ] As a user, I want to see the footer on a bottom of page.
+- [ ] the footer which is describe adders of HYF and social media links
 
-> there is descriptive paragraph with the program
+## 2 Should-have `program page`
 
-#### Statistic
+#### Who can apply
 
-- [ ] As a user I can see the paragraph with stat information.
+- [ ] As user I want to see who can apply section
+- [ ] There is a short description who they looking for as well as list of
+      requirements applicant.
 
-> There is a paragraph with statistic about graduated students
-
-#### Footer
-
-- [ ] As a user, I want to see the footer with the address, contacts and social
-      media links
-
-> There is a footer with contacts and social media links on each page.
-
-#### The Programs page
-
-- [ ] As a user, I want to know more about programs at HYF
-
-- > There is the program page with program information
-- > There is a guide on who can apply and the programming languages to be taught
-
-#### About Page
-
-- [ ] As a user I want to know what HYF is all about.
-
-- > There is about page on the website. Link is seen on the navbar.
-- > There is section on this page with vision of HYF
-
-#### Volunteer
-
-- [ ] As a user I want to know how I can help the students of the organization
-
-- > There is Volunteer page which can be accessed from the navbar
-
----
-
-## Should-Haves
-
-### Core values
-
-- [ ] As a user I should see values of HYF on the home page.
-
-### Success stories
-
-- [ ] As a user, I can see student's success stories.
-
-### Partners
-
-- [ ] As a user, I can see partner of the HYF.
-
----
-
-## Could-Haves
-
-### FAQ page
-
-- [ ] As a user I could read FAQ to be more informed
+## 3. Could-have `program page`
