@@ -175,6 +175,7 @@
   background: url(../images/showcase.jpg) center center no-repeat transparent;
   z-index: 1;
   flex: 0 0 auto;
+  background-size: cover;
 }
 
 .showcase-class {
