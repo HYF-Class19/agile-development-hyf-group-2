@@ -162,7 +162,57 @@
   }
 }
 
-/* ---------- START OUR PROGRAM & OUR IMPACT---------- */
+/* showcase */
+
+.showcase-section {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+  padding: 50px 20px;
+  position: relative;
+  box-shadow: none;
+  background: url(../images/showcase.jpg) center center no-repeat transparent;
+  z-index: 1;
+  flex: 0 0 auto;
+  background-size: cover;
+}
+
+.showcase-class {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+  padding: 10px;
+}
+
+.showcase {
+  display: flex;
+  margin: 60px 30px;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  max-width: 800px;
+  z-index: 10;
+}
+
+.showcase-h1 {
+  font-size: 64px;
+  line-height: 120%;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  max-width: none;
+}
+
+/* START OUR PROGRAM & OUR IMPACT */
 
 #first-section {
   display: flex;
