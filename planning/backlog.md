@@ -48,7 +48,7 @@ create your own!
 
 ## 2. Should-have `home page`
 
-#### Statistic
+### Statistic
 
 - [ ] As a user I want see impact section which is has information of graduated
       students.
@@ -68,7 +68,7 @@ create your own!
 
 ## 3. Could-have `home page`
 
-#### Core-values
+### Core-values
 
 - [ ] As a user I want to see core values of HYF Belgium.
 - [ ] There is HYF values which is include community, diversity commitment and
@@ -129,7 +129,7 @@ create your own!
 
 ## 2 Should-have `program page`
 
-#### Who can apply
+### Who can apply
 
 - [ ] As user I want to see who can apply section
 - [ ] There is a short description who they looking for as well as list of
