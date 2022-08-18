@@ -1,13 +1,8 @@
 @import url("./something.css");
 @import url("https://fonts.googleapis.com/css2?family=Coda&family=Poppins:wght@100;400;500&family=Space+Mono&display=swap");
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 /* heading */
+
 .home-header {
   padding: 0 20px;
 }
