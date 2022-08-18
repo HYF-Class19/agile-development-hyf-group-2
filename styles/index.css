@@ -115,6 +115,10 @@
   font-family: "Work Sans", sans-serif;
 }
 
+.apply a {
+  color: white;
+}
+
 .home-nav li a {
   font-family: cursive;
   font-size: 16px;
