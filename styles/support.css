@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   justify-content: center;
   padding-left: 70px;
@@ -101,12 +102,16 @@ body {
   padding: 15px;
 }
 
+.home-nav li:hover {
+  border-bottom: 3px solid rgb(74, 80, 187);
+}
+
 .apply {
   display: inline-flex;
   font-size: 12px;
-  line-height: 160%;
+  line-height: 100%;
   text-decoration: none;
-  background-color: blue;
+  background-color: rgb(74, 80, 187);
   color: white;
   font-weight: 600;
   border: 1px solid transparent;
@@ -120,31 +125,12 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
-.home-nav li a {
-  font-family: cursive;
-  font-size: 16px;
-}
-
-.home-nav li a:hover {
-  display: inline-flex;
-  font-size: 12px;
-  line-height: 160%;
-  text-decoration: none;
-  background-color: rgb(7, 19, 255);
-  color: white;
-  font-weight: 600;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  box-sizing: border-box;
-  padding: 10px 20px;
-  cursor: pointer;
-  text-transform: uppercase;
-  -webkit-box-align: center;
-  align-items: center;
-  font-family: "Work Sans", sans-serif;
+.apply a {
+  color: rgb(255, 255, 255);
 }
 
 /* why to be partner */
+
 .partners {
   display: flex;
   justify-content: center;
@@ -156,6 +142,7 @@ body {
   flex: 0 0 auto;
   background: none;
 }
+
 .partners-container {
   display: flex;
   width: 100%;
@@ -166,6 +153,7 @@ body {
   padding: 10px 0;
   margin: 0 auto;
 }
+
 .partners-card {
   width: 100%;
   display: flex;
@@ -208,12 +196,12 @@ body {
 
 .partners-information a {
   font-size: 16px;
-
   font-family: "poppins", monospace;
   text-align: left;
   color: rgb(85, 112, 176);
   font-weight: 500;
-  margin-top: 20px;
+  margin-top: 15px;
+  margin-left: 0;
   padding: 4px 8px;
   text-decoration: none;
 }
@@ -238,7 +226,6 @@ body {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  height: 100%;
   justify-content: flex-end;
   height: 400px;
   width: 400px;
@@ -250,6 +237,7 @@ body {
 }
 
 /* what to donate */
+
 .donations {
   display: flex;
   justify-content: center;
