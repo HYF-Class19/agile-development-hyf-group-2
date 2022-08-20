@@ -258,6 +258,7 @@
   margin: 0 0 2%;
   color: rgb(28, 34, 148);
   font-weight: 700;
+  font-size: 20px;
 }
 
 #first-section p {
@@ -280,7 +281,7 @@
 
 #second-section {
   width: 80em;
-  height: 25em;
+  height: 30em;
   margin: auto;
   margin-top: 10%;
   margin-bottom: 10%;
