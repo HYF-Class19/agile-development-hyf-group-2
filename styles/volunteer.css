@@ -4,7 +4,7 @@
 /* header */
 
 .volunteer {
-  display:flex;
+  display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -22,23 +22,23 @@
   padding: 20px;
   margin-right: 35%;
   margin-left: 35%;
-  font-family:'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   gap: 20px;
   line-height: 30px;
   font-size: large;
 }
 
 .volunteer-button {
-    background-color: blue;
-    padding: 15px 32px;
+  background-color: blue;
+  padding: 15px 32px;
 }
 
-.volunteer-button-container  a {
+.volunteer-button-container a {
   color: white;
 }
 
 .why-volunteer {
-  display:flex;
+  display: flex;
   justify-content: center;
   flex-direction: row;
   align-items: center;
@@ -51,12 +51,11 @@
   font-size: xx-large;
   margin-right: 5%;
   margin-left: 15%;
-  
 }
 
 .why-logo {
- float: left;
- margin: 30px 0px 0px 0px 0px ;
+  float: left;
+  margin: 30px 0px 0px 0px 0px;
 }
 
 .v-logo-container {
@@ -78,15 +77,13 @@
   box-shadow: 1px 1px 0.2em grey;
   margin-top: 50px;
   margin-bottom: 100px;
-  
 }
 
 .anthony-name {
-  color:blue;
+  color: blue;
   font-size: large;
   margin-top: 30px;
   padding: 1px 0px 0px 50px;
-  
 }
 
 .anthony-role {
@@ -98,21 +95,19 @@
 .anthony-content {
   padding: 1px 80px 20px 50px;
   justify-content: center;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   line-height: 40px;
 }
 
-.anthony-button  {
+.anthony-button {
   background-color: blue;
-   padding: 15px 32px;
+  padding: 15px 32px;
   justify-content: center;
 }
 
-.anthony-button  a {
+.anthony-button a {
   color: white;
 }
-
-
 
 .eleni-container {
   display: flex;
@@ -128,11 +123,10 @@
 }
 
 .eleni-name {
-  color:blue;
+  color: blue;
   font-size: large;
   margin-top: 30px;
   padding: 1px 0px 0px 50px;
-  
 }
 
 .eleni-role {
@@ -144,20 +138,20 @@
 .eleni-content {
   padding: 1px 80px 20px 50px;
   justify-content: center;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   line-height: 40px;
 }
 
 .eleni-button-container {
-   right: 0px ;
+  right: 0px;
 }
 
 .eleni-button {
   background-color: blue;
   padding: 15px 32px;
   justify-content: center;
- }
+}
 
- .eleni-button  a {
+.eleni-button a {
   color: white;
 }
