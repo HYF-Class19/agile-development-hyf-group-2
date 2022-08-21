@@ -89,7 +89,7 @@
 .anthony-role {
   color: blue;
   font-size: medium;
-  padding: 1px 0px 20px 50px;
+  padding: 1px 0 20px 50px;
 }
 
 .anthony-content {
@@ -126,13 +126,13 @@
   color: blue;
   font-size: large;
   margin-top: 30px;
-  padding: 1px 0px 0px 50px;
+  padding: 1px 0 0 50px;
 }
 
 .eleni-role {
   color: blue;
   font-size: medium;
-  padding: 1px 0px 20px 50px;
+  padding: 1px 0 20px 50px;
 }
 
 .eleni-content {
@@ -143,7 +143,7 @@
 }
 
 .eleni-button-container {
-  right: 0px;
+  right: 0;
 }
 
 .eleni-button {
